@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var widget = require('../controllers/tronco_widget_controller')
-var tronco_plot_controller = require('../controllers/tronco_plot_controller');
+//var tronco_plot_controller = require('../controllers/tronco_plot_controller');
 
 /* GET users listing. 
 router.get('/', function(req, res, next) {
