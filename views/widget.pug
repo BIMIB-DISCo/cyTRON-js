@@ -27,6 +27,12 @@ block content
                                             |  Choose input file(s)
                                     div.col()
                                         i(class='fa fa-question fa-3x' id='helpIcon')
+                                div(class="form-group vert")
+                                    div(class = 'container')
+                                        h2(class = 'font-weight-light', style = 'color:white; font-size:12px')
+                                            |  Please upload only either public or non-sensitive data. 
+                                            |  Be aware that the upload of any data is under the users's responsibility
+                                
                                         
                                 div.container(id = 'info_div' style='background:white; color:black;position:absolute; display:none; z-index:10') 
                                     div.container.col-8(style='float:left') Input information
@@ -47,7 +53,7 @@ block content
                                                 td(id='tp_value') A custom boolean table, where each cell indicates 
                                                     |the presence of the corresponding mutation in the corresponding sample
                                             tr(id='interest_rwo')
-                                                th(scope='row') ITEREST
+                                                th(scope='row') INTEREST
                                                 td(id='pr_value') A txt or csv file contaning a list of genes to take into consideration for model reconstruction.
                                                     | This step can be used to further annotate the result and speed up the computation, 
                                                     | as only genes in this list will be taken into consideration

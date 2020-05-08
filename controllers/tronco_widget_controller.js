@@ -772,7 +772,7 @@ exports.visualize_public_post = function(req, res) {
                 fs.readdir(__dirname + '/public_data/', function(err, files) {
                     res.render('index', {content : data,
                     login_logout : 'log-in',
-                    login_logout_link : 'welcome',
+                    login_logout_link : '/cytronjs/welcome',
                     public_graphs_name : files,
                     is_public : true})
                 })
