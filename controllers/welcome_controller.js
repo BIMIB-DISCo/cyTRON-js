@@ -22,7 +22,7 @@ var dburl = "mongodb://localhost:27017/cyTRONJS_users";
 graphml( cytoscape, jquery ); // register extension
 
 function encrypt(text){
-    var cipher = crypto.createCipher('aes-256-cbc','jghO2Ty')
+    var cipher = crypto.createCipher('aes-256-cbc','nd3kkR47')
     var crypted = cipher.update(text,'utf8','hex')
     crypted += cipher.final('hex');
     return crypted;
