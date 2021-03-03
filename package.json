@@ -31,7 +31,7 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "popper.js": "^1.14.6",
-    "pug": "2.0.3",
+    "pug": "3.0.1",
     "r-script": "0.0.3",
     "request": "^2.88.0"
   }
