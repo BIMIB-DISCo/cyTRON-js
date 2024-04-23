@@ -14,7 +14,7 @@
     "cytoscape-dagre": "^2.2.2",
     "cytoscape-graphml": "^1.0.5",
     "cytoscape-panzoom": "^2.5.3",
-    "debug": "^4.1.0",
+    "debug": "^4.3.1",
     "email-verify": "^0.2.1",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
