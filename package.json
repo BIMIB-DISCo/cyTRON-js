@@ -19,7 +19,7 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "express-validator": "^5.3.0",
-    "formidable": "^1.2.1",
+    "formidable": "^3.2.4",
     "fs": "0.0.1-security",
     "http-errors": "^1.7.1",
     "jquery": "^3.5.0",
